@@ -1,0 +1,75 @@
+
+[hud]
+	#RU: Включить клиентскую HUD-панель статуса точки.
+	#EN: Enable client HUD panel for zone status.
+	enabled = true
+	#RU: Горизонтальный сдвиг HUD (пиксели).
+	#EN: HUD horizontal offset (pixels).
+	#Range: -10000 ~ 10000
+	offsetX = -260
+	#RU: Вертикальный сдвиг HUD (пиксели).
+	#EN: HUD vertical offset (pixels).
+	#Range: -10000 ~ 10000
+	offsetY = -10
+	#RU: Включить старые 3D-лейблы/голограммы над точками.
+	#EN: Enable legacy 3D labels/holograms above points.
+	hologramsEnabled = true
+	#RU: Длительность плавного появления/скрытия панели (тики).
+	#EN: Panel fade-in/out duration (ticks).
+	#Range: 6 ~ 200
+	panelFadeTicks = 24
+	#RU: Длительность баннера о завершении захвата (тики).
+	#EN: Duration of capture-complete banner (ticks).
+	#Range: 20 ~ 400
+	bannerTicks = 70
+	#RU: Считать данные устаревшими через N тиков (скрывать HUD при отсутствии обновлений).
+	#EN: Mark data as stale after N ticks (hide HUD if no updates).
+	#Range: 1 ~ 200
+	staleTimeoutTicks = 15
+	#RU: Включить современный рендер голограмм (не конфликтуя со старыми).
+	#EN: Enable modern hologram renderer (won't double-render with legacy).
+	#NOTE: Works only when hud.hologramsEnabled=false and modernHologramsEnabled=true.
+	modernHologramsEnabled = true
+	#RU: Максимальная дистанция рендера голограмм (блоки).
+	#EN: Maximum hologram render distance (blocks).
+	#Range: 16 ~ 512
+	hologramMaxDistance = 96
+	#RU: Дистанция, ближе которой используется полный уровень детализации.
+	#EN: Distance for full-detail LOD.
+	#Range: 4 ~ 128
+	hologramLodNear = 16
+	#RU: Дистанция, дальше которой используется упрощенный вид.
+	#EN: Distance to start simplified LOD.
+	#Range: 8 ~ 256
+	hologramLodFar = 48
+	#RU: Базовый масштаб голограммы в мире.
+	#EN: Base scale of the label in world.
+	#Range: 0.005 ~ 0.1
+	hologramBaseScale = 0.025
+	#RU: Использовать текстурированную панель для голограмм.
+	#EN: Use textured panel for holograms.
+	hologramTextured = true
+	#RU: Путь к текстуре панели голограммы.
+	#EN: Texture path for hologram panel.
+	hologramTexturePanel = "capturepoints:textures/ui/holo_panel.png"
+	#RU: Показывать минимальную рамку/контур.
+	#EN: Show minimal border/box.
+	hologramShowBounds = true
+
+[teams]
+	#RU: Техническое имя команды 1 (влияет на отображение клиента).
+	#EN: Technical name of team 1 (client display only).
+	team1 = "team1"
+	#RU: Техническое имя команды 2 (влияет на отображение клиента).
+	#EN: Technical name of team 2 (client display only).
+	team2 = "team2"
+
+[outline]
+	#RU: Показывать красивую обводку зоны в мире (вместо партиклов).
+	#EN: Render a nice world-space outline of the zone (non-particle).
+	enabled = true
+	#RU: Цвет линии обводки (ARGB, например 0xA0FFCC00).
+	#EN: Outline line color (ARGB, e.g. 0xA0FFCC00).
+	#Range: > -2147483648
+	color = -1593848832
+

@@ -1,0 +1,146 @@
+{
+	// Percentage of total stamina triggering exhaustion
+	"exhaustedPercentage": 10,
+	// Percentage of total stamina making the player winded
+	"windedPercentage": 33,
+	// Percentage of total stamina making the player fatigued
+	"fatiguedPercentage": 10,
+	// Stamina points depleted per tick while sprinting.
+	"depletionPerTickSprinting": 0.03999999910593033,
+	// Stamina points depleted per tick while swimming.
+	"depletionPerTickSwimming": 0.6299999952316284,
+	// Stamina points depleted per tick while climbing.
+	"depletionPerTickClimbing": 0.125,
+	// Stamina points depleted per jump
+	"depletionPerJump": 3.75,
+	// Stamina points depleted per attack
+	"depletionPerAttack": 0.0,
+	// Stamina points depleted per weapon swing
+	"depletionPerWeaponSwing": 0.0,
+	// Stamina points depleted per tick while mining
+	"depletionPerMiningTick": 0.05999999865889549,
+	// Stamina points depleted per block broken
+	"depletionPerBlockBroken": 0.0,
+	// Stamina points depleted per tick while using a shield
+	"depletionPerShieldTick": 0.0,
+	// Stamina points depleted per tick while using a glider
+	"depletionPerGliderTick": 0.0,
+	// Can jump while exhausted
+	"canJumpWhileExhausted": false,
+	// Exhaustion sounds
+	"exhaustionSounds": true,
+	// Efficiency increases exhaustion
+	"efficiencyExhausts": false,
+	// % of max stamina recovered per tick.
+	"recoveryPerTick": 0.20000000298023224,
+	// Bonus recovery multiplier for not moving.
+	"recoveryRestBonusMultiplier": 1.5,
+	// Do players recover stamina while walking?
+	"recoverWhileWalking": true,
+	// Do players recover stamina while sneaking?
+	"recoverWhileSneaking": true,
+	// Do players recover stamina when too hungry to sprint?
+	"recoverWhenHungry": true,
+	// Do players recover stamina when not on the ground?
+	"recoverWhileAirborne": true,
+	// Do players recover stamina when submerged?
+	"recoverUnderwater": true,
+	// Do players recover stamina when suffocating?
+	"recoverWhileBreathless": false,
+	// Delay in ticks before starting recovery from exhaustion
+	"recoveryExhaustDelayTicks": 40,
+	// Delay in ticks before starting recovery after depletion
+	"recoveryDelayTicks": 0,
+	// Delay in ticks before regaining shield use
+	"shieldRecoveryDelayTicks": 40,
+	// Which formula to use for recovery
+	"formula": "LOGARITHMIC",
+	// HUD vertical alignment
+	"alignV": "BOTTOM",
+	// HUD horizontal alignment
+	"alignH": "CENTER",
+	// HUD Display Mode
+	"hudMode": "ICON",
+	// Icon Settings
+	"icon": {
+		// Hud Icon Height
+		"height": 22,
+		// Horizontal offset
+		"offsetY": 1,
+		// Vertical offset
+		"offsetX": 105
+	},
+	// Stamina Bar Settings
+	"bar": {
+		// Stamina bar orientation
+		"orientation": "HORIZONTAL",
+		// Short side (pixels)
+		"shortSide": 2,
+		// Long side (pixels)
+		"longSide": 180,
+		// Horizontal offset
+		"offsetY": 22,
+		// Vertical offset
+		"offsetX": 0
+	},
+	// Stamina bar background color
+	"staminaBarBackgroundColor": 2236962,
+	// Stamina bar outline color
+	"staminaBarOutlineColor": 0,
+	// Stamina bar main color
+	"staminaBarColor": 65280,
+	// Stamina bar fatigued color
+	"staminaBarFatiguedColor": 16776960,
+	// Stamina bar winded color
+	"staminaBarWindedColor": 16744448,
+	// Stamina bar nearly exhausted color
+	"staminaBarNearlyExhaustedColor": 16711680,
+	// Stamina bar Tireless effect color
+	"staminaBarTirelessColor": 16691766,
+	// Exhaustion effects
+	"exhaustedEffects": [
+		{
+			"id": "staminafortweakers:fatigue",
+			"duration": 3,
+			"amplifier": 2,
+			"ambient": true,
+			"visible": false
+		},
+		{
+			"id": "minecraft:darkness",
+			"duration": 60,
+			"amplifier": 0,
+			"ambient": true,
+			"visible": false
+		},
+		{
+			"id": "minecraft:mining_fatigue",
+			"duration": 20,
+			"amplifier": 3,
+			"ambient": true,
+			"visible": false
+		}
+	],
+	// Winded effects
+	"windedEffects": [
+		{
+			"id": "staminafortweakers:fatigue",
+			"duration": 3,
+			"amplifier": 1,
+			"ambient": true,
+			"visible": false
+		}
+	],
+	// Fatigued effects
+	"fatiguedEffects": [
+		{
+			"id": "staminafortweakers:fatigue",
+			"duration": 3,
+			"amplifier": 0,
+			"ambient": true,
+			"visible": false
+		}
+	],
+	// Effects equivalent to Untiring
+	"untiringEquivalentEffects": []
+}

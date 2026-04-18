@@ -1,0 +1,22 @@
+{
+  "id": "Склад_178-72-322",
+  "name": "Склад",
+  "icon": "journeymap:ui/img/waypoint-icon.png",
+  "colorizedIcon": "fake:color--16777216-waypoint-icon.png",
+  "x": 178,
+  "y": 72,
+  "z": -322,
+  "r": 0,
+  "g": 0,
+  "b": 0,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    "minecraft:overworld"
+  ],
+  "persistent": true,
+  "showDeviation": false,
+  "iconColor": -1,
+  "customIconColor": false
+}

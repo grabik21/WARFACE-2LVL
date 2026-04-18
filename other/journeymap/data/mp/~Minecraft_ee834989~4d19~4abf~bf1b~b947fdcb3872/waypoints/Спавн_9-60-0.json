@@ -1,0 +1,22 @@
+{
+  "id": "Спавн_9-60-0",
+  "name": "Спавн",
+  "icon": "journeymap:ui/img/waypoint-icon.png",
+  "colorizedIcon": "fake:color--16777216-waypoint-icon.png",
+  "x": 9,
+  "y": -60,
+  "z": 0,
+  "r": 0,
+  "g": 0,
+  "b": 0,
+  "enable": false,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    "minecraft:overworld"
+  ],
+  "persistent": true,
+  "showDeviation": false,
+  "iconColor": -1,
+  "customIconColor": false
+}

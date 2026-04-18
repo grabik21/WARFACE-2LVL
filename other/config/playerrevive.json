@@ -1,0 +1,74 @@
+{
+  "banPlayerAfterDeath": false,
+  "bleeding": {
+    "bleedTime": 3600,
+    "triggerForCreative": true,
+    "bleedingMessage": false,
+    "bleedingMessageTrackingOnly": true,
+    "shouldGlow": false,
+    "bleedingEffects": [
+      {
+        "effect": "minecraft:slowness",
+        "amplifier": 3,
+        "duration": 10,
+        "hideParticles": false
+      }
+    ],
+    "affectHunger": true,
+    "remainingHunger": 6,
+    "initialDamageCooldown": 20,
+    "bleedingHealth": 20,
+    "disableMobDamage": true,
+    "disablePlayerDamage": false,
+    "disableOtherDamage": false,
+    "hasShaderEffect": true,
+    "changePermissionLevel": false,
+    "permissionLevel": 0,
+    "canBePushed": true,
+    "disableAllGUIAccess": true,
+    "disableInventoryAccess": true,
+    "disableChatAccess": false,
+    "disableServerCommands": false
+  },
+  "revive": {
+    "requiredReviveProgress": 100.0,
+    "progressPerPlayer": 0.66,
+    "exhaustion": 0.0,
+    "haltBleedTime": false,
+    "abortOnDamage": false,
+    "resetProgress": true,
+    "revivedEffects": [
+      {
+        "effect": "minecraft:slowness",
+        "amplifier": 1,
+        "duration": 3,
+        "hideParticles": true
+      }
+    ],
+    "reviveItem": "{id:\"item\",item:\"minecraft:glowstone_dust\"}",
+    "needReviveItem": false,
+    "consumeReviveItem": false,
+    "maxDistance": 3,
+    "healthAfter": 5
+  },
+  "sounds": {
+    "death": {
+      "sound": "playerrevive:death",
+      "volume": 0.0,
+      "pitch": 0.0
+    },
+    "revived": {
+      "sound": "playerrevive:revived",
+      "volume": 0.0,
+      "pitch": 0.0
+    }
+  },
+  "bypassDamageSources": [
+    "gorgon",
+    "death.attack.sgcraft:transient",
+    "death.attack.sgcraft:iris",
+    "vampirism_dbno",
+    "hordes:infection"
+  ],
+  "bleedInSingleplayer": false
+}

@@ -1,0 +1,22 @@
+{
+  "id": "База-ВС-РФ_801-73-1475",
+  "name": "База ВС РФ",
+  "icon": "journeymap:ui/img/waypoint-icon.png",
+  "colorizedIcon": "fake:color--121070-waypoint-icon.png",
+  "x": 801,
+  "y": 73,
+  "z": -1475,
+  "r": 254,
+  "g": 39,
+  "b": 18,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    "minecraft:overworld"
+  ],
+  "persistent": true,
+  "showDeviation": false,
+  "iconColor": -1,
+  "customIconColor": false
+}

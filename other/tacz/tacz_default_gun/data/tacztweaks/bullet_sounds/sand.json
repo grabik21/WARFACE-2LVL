@@ -1,0 +1,9 @@
+{
+  "type": "block",
+  "blocks": [
+    "#tacztweaks:sand"
+  ],
+  "hit": {
+    "sound": "tacztweaks:generic.hit.sand"
+  }
+}

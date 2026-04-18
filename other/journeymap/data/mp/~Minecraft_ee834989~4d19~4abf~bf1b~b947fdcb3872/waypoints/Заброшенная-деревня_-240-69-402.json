@@ -1,0 +1,22 @@
+{
+  "id": "Заброшенная-деревня_-240-69-402",
+  "name": "Заброшенная деревня",
+  "icon": "journeymap:ui/img/waypoint-icon.png",
+  "colorizedIcon": "fake:color--15658735-waypoint-icon.png",
+  "x": -240,
+  "y": 69,
+  "z": -402,
+  "r": 17,
+  "g": 17,
+  "b": 17,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    "minecraft:overworld"
+  ],
+  "persistent": true,
+  "showDeviation": false,
+  "iconColor": -1,
+  "customIconColor": false
+}

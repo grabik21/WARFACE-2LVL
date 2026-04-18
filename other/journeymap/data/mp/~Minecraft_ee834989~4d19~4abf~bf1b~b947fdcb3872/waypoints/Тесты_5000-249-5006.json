@@ -1,0 +1,22 @@
+{
+  "id": "Тесты_5000-249-5006",
+  "name": "Тесты",
+  "icon": "journeymap:ui/img/waypoint-icon.png",
+  "colorizedIcon": "fake:color--16777216-waypoint-icon.png",
+  "x": 5000,
+  "y": 249,
+  "z": 5006,
+  "r": 0,
+  "g": 0,
+  "b": 0,
+  "enable": false,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    "minecraft:overworld"
+  ],
+  "persistent": true,
+  "showDeviation": false,
+  "iconColor": -1,
+  "customIconColor": false
+}
