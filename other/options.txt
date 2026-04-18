@@ -229,7 +229,7 @@ key_key.lrtactical.sp_attack.desc:key.mouse.right
 key_keys.armourers_workshop.open-wardrobe:key.keyboard.h
 key_keys.armourers_workshop.undo:key.keyboard.unknown
 key_key.pickup.item:key.keyboard.unknown
-soundCategory_master:0.3366445916114791
+soundCategory_master:0.5584988962472407
 soundCategory_music:0.0
 soundCategory_record:1.0
 soundCategory_weather:0.08215962441314548
