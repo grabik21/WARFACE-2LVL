@@ -31,13 +31,13 @@ glintStrength:0.75
 damageTiltStrength:1.0
 highContrast:false
 gamma:1.0
-renderDistance:23
+renderDistance:24
 simulationDistance:17
 entityDistanceScaling:5.0
-guiScale:3
+guiScale:2
 particles:0
 maxFps:260
-graphicsMode:0
+graphicsMode:1
 ao:true
 prioritizeChunkUpdates:0
 biomeBlendRadius:2
@@ -46,7 +46,7 @@ resourcePacks:["vanilla","tacz_resources","mod_resources","file/PresenceFootstep
 incompatibleResourcePacks:["file/citylink1.16.5-.zip"]
 lastServer:warfare.minerent.io
 lang:ru_ru
-soundDevice:"OpenAL Soft on Наушники (JBL TUNE510BT Stereo)"
+soundDevice:""
 chatVisibility:0
 chatOpacity:0.45539906103286376
 chatLineSpacing:0.0
@@ -120,8 +120,8 @@ key_key.hotbar.8:key.keyboard.8
 key_key.hotbar.9:key.keyboard.9
 key_key.entityculling.toggle:key.keyboard.unknown
 key_key.taczaddon.switch_gun.desc:key.keyboard.unknown
-key_Toogle HideHUD:key.keyboard.h
-key_HideHUD Config:key.keyboard.o
+key_Toogle HideHUD:key.keyboard.unknown
+key_HideHUD Config:key.keyboard.unknown
 key_key.modernfix.config:key.keyboard.unknown
 key_key.superbwarfare.reload:key.keyboard.r
 key_key.superbwarfare.fire_mode:key.keyboard.caps.lock
@@ -148,7 +148,6 @@ key_key.superbwarfare.unload:key.keyboard.unknown
 key_key.warborn.open_backpack:key.keyboard.b
 key_key.warborn.toggle_special_vision:key.keyboard.n
 key_key.warborn.toggle_helmet_top:key.keyboard.h
-key_key.exposure.camera_controls:key.keyboard.unknown
 key_key.fbp.toggle_mod:key.keyboard.unknown
 key_key.fbp.toggle_animations:key.keyboard.unknown
 key_key.fbp.open_settings:key.keyboard.unknown
@@ -206,9 +205,10 @@ key_key.configured.open_mod_list:key.keyboard.unknown
 key_key.lightmanscurrency.open_wallet:key.keyboard.left.bracket
 key_key.lightmanscurrency.portable_terminal:key.keyboard.unknown
 key_key.lightmanscurrency.portable_atm:key.keyboard.unknown
-key_key.vvp.thermal_vision:key.keyboard.t
+key_key.vvp.thermal_vision:key.keyboard.n
 key_key.vvp.seat_selector:key.keyboard.x
-key_key.anotherflashlightmodport.shake_light:key.keyboard.r
+key_keybinds.show_wounds:key.keyboard.left.alt
+key_key.anotherflashlightmodport.shake_light:key.keyboard.unknown
 key_key.push_to_talk:key.keyboard.x
 key_key.whisper:key.mouse.4
 key_key.mute_microphone:key.keyboard.x
@@ -219,17 +219,11 @@ key_key.voice_chat_settings:key.keyboard.unknown
 key_key.voice_chat_group:key.keyboard.unknown
 key_key.voice_chat_toggle_recording:key.keyboard.unknown
 key_key.voice_chat_adjust_volumes:key.keyboard.unknown
-key_key.fels_mgrwwii.key_shot:key.mouse.left
-key_key.fels_mgrwwii.elevation_up:key.keyboard.w
-key_key.fels_mgrwwii.elevation_down:key.keyboard.s
-key_key.fels_mgrwwii.pull_bolt:key.keyboard.unknown
-key_key.mnsaddition.toggle_config:key.keyboard.y
-key_key.lrtactical.normal_attack.desc:key.mouse.left
-key_key.lrtactical.sp_attack.desc:key.mouse.right
+key_key.mnsaddition.toggle_config:key.keyboard.unknown
 key_keys.armourers_workshop.open-wardrobe:key.keyboard.h
 key_keys.armourers_workshop.undo:key.keyboard.unknown
 key_key.pickup.item:key.keyboard.unknown
-soundCategory_master:0.5584988962472407
+soundCategory_master:0.43874172185430466
 soundCategory_music:0.0
 soundCategory_record:1.0
 soundCategory_weather:0.08215962441314548
